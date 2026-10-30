@@ -1,0 +1,19 @@
+id,metodo,esperado,obtenido,solucion,residuo_infinito,veredicto
+G01,gauss,resuelto,resuelto,"60.000000, 65.000000, 70.000000",1.137e-13,OK
+G02,gauss,resuelto,resuelto,"10.000000, 15.000000, 20.000000",0.000e+00,OK
+G03,gauss,resuelto,resuelto,"25.000000, 30.000000",2.842e-14,OK
+G04,gauss,resuelto,resuelto,"5.000000, 7.000000, 4.000000, 6.000000",0.000e+00,OK
+G05,gauss,inconsistente,inconsistente,,,OK
+G06,gauss,indeterminado,indeterminado,,,OK
+J01,jordan,resuelto,resuelto,"120.000000, 80.000000, 60.000000",0.000e+00,OK
+J02,jordan,resuelto,resuelto,"12.000000, 9.000000, 6.000000",0.000e+00,OK
+J03,jordan,resuelto,resuelto,"24.000000, 30.000000",0.000e+00,OK
+J04,jordan,resuelto,resuelto,"12.000000, 8.000000, 10.000000, 6.000000",1.421e-14,OK
+J05,jordan,inconsistente,inconsistente,,,OK
+J06,jordan,indeterminado,indeterminado,,,OK
+S01,seidel,resuelto,resuelto,"72.000000, 68.000000, 65.000000",6.060e-10,OK
+S02,seidel,resuelto,resuelto,"14.000000, 12.000000, 10.000000",4.309e-11,OK
+S03,seidel,resuelto,resuelto,"40.000000, 35.000000",8.813e-10,OK
+S04,seidel,resuelto,resuelto,"22.000000, 24.000000, 20.000000, 18.000000",1.622e-09,OK
+S05,seidel,diagonal_nula,diagonal_nula,,,OK
+S06,seidel,no_convergencia,no_convergencia,,,OK
